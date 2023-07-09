@@ -1,5 +1,6 @@
 import { Contact } from 'components/Contact/Contact';
 import PropTypes from 'prop-types';
+
 export const ContactList = ({ filtered, deleteContact }) => {
   return (
     <ul>

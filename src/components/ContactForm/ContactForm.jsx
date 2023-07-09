@@ -27,7 +27,7 @@ class Contacts extends Component {
   };
 
   render() {
-  const {name,number} = this.state;
+    const { name, number } = this.state;
     return (
       <ContainerForm>
         <form onSubmit={this.handleSubmit}>
